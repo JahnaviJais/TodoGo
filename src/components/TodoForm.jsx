@@ -20,9 +20,9 @@ function TodoForm() {
                 value={todo}
                 onChange={(e) => setTodo(e.target.value)}
                 placeholder="Write Todo..."
-                className="w-full border border-pink-600 rounded-l-lg px-3 outline-none duration-150 bg-white/20 py-1.5"
+                className="w-full border border-[#9d6266] rounded-l-lg px-3 outline-none duration-150 bg-white/20 py-1.5"
             />
-            <button type="submit" className="rounded-r-lg px-7 py-1 bg-pink-700 text-white shrink-0">
+            <button type="submit" className="rounded-r-lg px-7 py-1 bg-[#9d6266] text-white shrink-0">
                 Add
             </button>
         </form>
